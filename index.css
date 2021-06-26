@@ -1,0 +1,196 @@
+/* html {
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul a {
+    text-decoration: none;
+    color: #5f6368;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.header-right{
+    float: right;
+    margin-right: 20px;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+#appicon {
+    vertical-align: middle;
+    opacity: 0.6;
+    width: 25px;
+    height: 25px;
+    padding: 7px;
+}
+
+#appicon:hover{
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+}
+
+#signin-btn {
+    background-color: #4285f4;
+    border: none;
+    height: 30px;
+    width: 70px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#signin-btn:active {
+    box-shadow: inset 0 2px 0 rgba(0, 0, 0, 0.15);
+}
+
+#google-logo {
+    width: 272px;
+    height: 92px;
+    display: block;
+    margin: 170px auto 0;
+}
+/*margin shorthand: top - right/left - bottom*/
+
+.searchbar {
+    width: 583px;
+    height: 44px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    margin: 28px auto;
+}
+
+.searchbar:hover{
+    box-shadow: 0 0 10px lightgray;
+}
+
+#mag {
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 9px;
+    left: 8px;
+}
+
+#search {
+    height: 34px;
+    width: 460px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    position: relative;
+    top:3px;
+    font-size: 16px;
+}
+
+#microphone{
+    height: 24px;
+    position: relative;
+    top: 9px;
+    /* left: 20px; */
+    right: -20px;
+    cursor: pointer;
+}
+
+#keyboard {
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+#btn1,
+#btn2 {
+    height: 36px;
+    min-width: 120px;
+    background-color: #F8F9FA;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+}
+
+#btn1:hover,
+#btn2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px #5f6368;
+}
+
+#language {
+    text-align: center;
+    margin-top: 32px;
+    font-size: small;
+}
+
+#language a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+#language a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+    line-height: 40px;
+    /* padding: 0 20px; */
+}
+
+.country {
+    padding-left: 30px;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.footer-left {
+    float: left;
+    padding-left: 30px;
+    /* padding-right: 20px; */
+    margin: 0;
+}
+
+.footer-right {
+    float: right;
+    margin: 0 30px 0 0;
+}
+
+footer li {
+    margin-right: 10px;
+}
+
+
+/* 
+.footer-right li{
+    margin-left: 10px;
+}
+
+.footer-left li{
+    margin-right: 10px;
+} */
